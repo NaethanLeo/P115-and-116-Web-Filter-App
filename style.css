@@ -1,0 +1,15 @@
+h2{
+    font-size: 25px !important;
+}
+
+
+@keyframes colorChanger{
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+canvas{
+    animation-name: colorChanger;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    padding-top: 100px;
+}
